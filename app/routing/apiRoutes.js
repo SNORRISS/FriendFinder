@@ -26,5 +26,14 @@ module.exports = function(app) {
     });
   });
 
-  app.post("/api/friends", function(req, res) {});
+  app.post("/api/friends", function(req, res) {
+    var survey = req.body.survey;
+    
+    connection.query("insert into friends (name, picture, q1, q2, q3, q4, q5) values(?,?,?,?,?,?,?)",
+     [req.body.name, req.body.picture, survey[0], survey[1], survey[2], survey[3], survey[4]],
+      function(data){
+
+      res.json(data);
+    });
+  });
 };
