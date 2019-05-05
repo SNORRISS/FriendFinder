@@ -1,232 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
 
 
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Personality Survey</h1>
-        <p class="lead">1 for things you don't agree with at all, 5 for things you agree with entirely.</p>
-      </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Personality Survey</h1>
+      <p class="lead">1 for things you don't agree with at all, 5 for things you agree with entirely.</p>
     </div>
+  </div>
 
-    <form>
-      <div class="form-group">
-        <label for="nameInput">Name</label>
-        <input type="email" class="form-control" id="nameInput" placeholder="">
-      </div>
-      <div class="form-group">
-        <label for="pictureURL">Link to photo</label>
-        <input type="email" class="form-control" id="pictureURL" placeholder="https://s3-eu-west-1.amazonaws.com/investico/app/uploads/2017/05/03162547/default-person.jpg">
-      </div>
-    </form>
-
-    <div class = "container">
-
-      <h3>Do you agree with this statement?</h3>
-
-      <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-        <div class="btn-group" role="group" aria-label="First group">
-          <button type="button" class="btn btn-secondary" question = "0">1</button>
-          <button type="button" class="btn btn-secondary" question = "0">2</button>
-          <button type="button" class="btn btn-secondary" question = "0">3</button>
-          <button type="button" class="btn btn-secondary" question = "0">4</button>
-          <button type="button" class="btn btn-secondary" question = "0">5</button>
-  
-        </div>
-      </div>
+  <form>
+    <div class="form-group">
+      <label for="nameInput">Name</label>
+      <input type="email" class="form-control" id="nameInput" placeholder="">
     </div>
-  
-        <br/>
+    <div class="form-group">
+      <label for="pictureURL">Link to photo</label>
+      <input type="email" class="form-control" id="pictureURL"
+        placeholder="https://s3-eu-west-1.amazonaws.com/investico/app/uploads/2017/05/03162547/default-person.jpg">
+    </div>
+  </form>
 
+  <div class="container">
 
-    <div class = "container">
-
-      <h3>Do you agree with this statement?</h3>
+    <h3>Do you agree with this statement?</h3>
 
     <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
       <div class="btn-group" role="group" aria-label="First group">
-        <button type="button" class="btn btn-secondary" question = "1">1</button>
-        <button type="button" class="btn btn-secondary" question = "1">2</button>
-        <button type="button" class="btn btn-secondary" question = "1">3</button>
-        <button type="button" class="btn btn-secondary" question = "1">4</button>
-        <button type="button" class="btn btn-secondary" question = "1">5</button>
-
-      </div>
-      </div>
-    </div>
-
-
-      <br/>
-      <div class = "container">
-
-      <h3>Do you agree with this statement?</h3>
-
-    <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-      <div class="btn-group" role="group" aria-label="First group">
-        <button type="button" class="btn btn-secondary" question = "2">1</button>
-        <button type="button" class="btn btn-secondary" question = "2">2</button>
-        <button type="button" class="btn btn-secondary" question = "2">3</button>
-        <button type="button" class="btn btn-secondary" question = "2">4</button>
-        <button type="button" class="btn btn-secondary" question = "2">5</button>
+        <button type="button" class="btn btn-secondary" question="0">1</button>
+        <button type="button" class="btn btn-secondary" question="0">2</button>
+        <button type="button" class="btn btn-secondary" question="0">3</button>
+        <button type="button" class="btn btn-secondary" question="0">4</button>
+        <button type="button" class="btn btn-secondary" question="0">5</button>
 
       </div>
     </div>
   </div>
 
-      <br/>
-    <div class = "container">
+  <br />
 
-      <h3>Do you agree with this statement?</h3>
 
-      <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-        <div class="btn-group" role="group" aria-label="First group">
-          <button type="button" class="btn btn-secondary" question = "3">1</button>
-          <button type="button" class="btn btn-secondary" question = "3">2</button>
-          <button type="button" class="btn btn-secondary" question = "3">3</button>
-          <button type="button" class="btn btn-secondary" question = "3">4</button>
-          <button type="button" class="btn btn-secondary" question = "3">5</button>
-  
+  <div class="container">
+
+    <h3>Do you agree with this statement?</h3>
+
+    <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary" question="1">1</button>
+        <button type="button" class="btn btn-secondary" question="1">2</button>
+        <button type="button" class="btn btn-secondary" question="1">3</button>
+        <button type="button" class="btn btn-secondary" question="1">4</button>
+        <button type="button" class="btn btn-secondary" question="1">5</button>
+
+      </div>
+    </div>
+  </div>
+
+
+  <br />
+  <div class="container">
+
+    <h3>Do you agree with this statement?</h3>
+
+    <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary" question="2">1</button>
+        <button type="button" class="btn btn-secondary" question="2">2</button>
+        <button type="button" class="btn btn-secondary" question="2">3</button>
+        <button type="button" class="btn btn-secondary" question="2">4</button>
+        <button type="button" class="btn btn-secondary" question="2">5</button>
+
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <div class="container">
+
+    <h3>Do you agree with this statement?</h3>
+
+    <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary" question="3">1</button>
+        <button type="button" class="btn btn-secondary" question="3">2</button>
+        <button type="button" class="btn btn-secondary" question="3">3</button>
+        <button type="button" class="btn btn-secondary" question="3">4</button>
+        <button type="button" class="btn btn-secondary" question="3">5</button>
+
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <div class="container">
+
+    <h3>Do you agree with this statement?</h3>
+
+    <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary" question="4">1</button>
+        <button type="button" class="btn btn-secondary" question="4">2</button>
+        <button type="button" class="btn btn-secondary" question="4">3</button>
+        <button type="button" class="btn btn-secondary" question="4">4</button>
+        <button type="button" class="btn btn-secondary" question="4">5</button>
+
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+
+
+
+  <div class="container">
+
+    <button type="button" class="btn btn-primary btn-lg submit">Submit</button>
+
+
+
+  </div>
+  <h1>Potential Friends</h1>
+
+  <div id="friends">
+
+
+  </div>
+
+
+
+
+  <div id="friendModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Your new best friend!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p id="friendspot"> </p>
+        </div>
+        <div class="modal-footer">
+
         </div>
       </div>
     </div>
-  
-        <br/>
-    <div class = "container">
-
-        <h3>Do you agree with this statement?</h3>
-
-        <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary" question = "4">1</button>
-            <button type="button" class="btn btn-secondary" question = "4">2</button>
-            <button type="button" class="btn btn-secondary" question = "4">3</button>
-            <button type="button" class="btn btn-secondary" question = "4">4</button>
-            <button type="button" class="btn btn-secondary" question = "4">5</button>
-    
-          </div>
-        </div>
-      </div>
-    
-          <br/>
-   
-
-
-
-            <div class = "container">
-
-            <button type="button" class="btn btn-primary btn-lg submit">Submit</button>
-
-      
-
-          </div>
-
-          <div id = "friends">
-            <h1>Potential Friends</h1>
-
-
-          </div>
+  </div>
 
 
 
 
-          <div id = "friendModal" class="modal" tabindex="-1" role="dialog">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">Your new best friend!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p id = "friendspot"> </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
 
-      
+</body>
 
-
-
-  </body>
 </html>
 
 <script type="text/javascript">
 
-var survey = [];
 
-function surveyDifference(data){
-  var dif = 0;
+  var survey = [];
 
-  dif += Math.abs(survey[0] - data.q1);
-  dif += Math.abs(survey[1] - data.q2);
-  dif += Math.abs(survey[2] - data.q3);
-  dif += Math.abs(survey[3] - data.q4);
-  dif += Math.abs(survey[4] - data.q5);
+  function surveyDifference(data) {
+    var dif = 0;
 
-  return dif;
+    dif += Math.abs(survey[0] - data.q1);
+    dif += Math.abs(survey[1] - data.q2);
+    dif += Math.abs(survey[2] - data.q3);
+    dif += Math.abs(survey[3] - data.q4);
+    dif += Math.abs(survey[4] - data.q5);
 
-}
+    return dif;
 
-
-$(".btn-secondary").click(function(){
-
-  var quest = parseInt($(this).attr("question"));
-
-  survey[quest] = parseInt($(this).text());
+  }
 
 
-  
-});
+  $(".btn-secondary").click(function () {
 
-$(".submit").click(function(){
-  var newPerson = {survey: survey, name: $("#nameInput"), picture: $("#pictureURL")};
+    var quest = parseInt($(this).attr("question"));
 
-  $.post("/api/friends", newPerson).then(function(response){
+    survey[quest] = parseInt($(this).text());
 
-    $.get("/api/friends", function(data) {
-      var bestFriend = null;
-      for(var i = 0; i < data.length; i ++){
-    $("#friends").append("<h3>" + data[i].name + "<h3>");
-
-      var dif = surveyDifference(data[i]);
-
-
-      if(bestFriend == null){
-        bestFriend = {friend: data[i], difference: dif};
-      }else if(bestFriend.difference < dif){
-
-        bestFriend = {friend: data[i], difference: dif}
-      }
-
-
-    }
-
-
-    $("friendspot").text(bestFriend[0].name);
-    $('#friendModal').modal(focus);
 
 
   });
 
+  $(".submit").click(function () {
+    var newPerson = { survey: survey, name: $("#nameInput").val(), picture: $("#pictureURL").val() };
+
+    console.log(newPerson);
+
+    $("#friends").text("")
+
+    $.post("/api/friends", newPerson).then(function (response) {
+
+      $.get("/api/friends", function (data) {
+        console.log(data);
+        var bestFriend = { friend: "Nobody", dif: 1000 };
+        for (var i = 0; i < data.length; i++) {
+          $("#friends").append("<h3>" + data[i].name + "<h3>");
+          console.log(data[i.name]);
+
+          var dif = surveyDifference(data[i]);
+
+
+          if (bestFriend == null) {
+            bestFriend.friend = data[i];
+            bestFriend.dif = dif;
+          } else if (bestFriend.dif > dif) {
+
+            bestFriend.friend = data[i];
+            bestFriend.dif = dif;
+          }
+
+
+        }
+
+
+        $("#friendspot").text(bestFriend.friend.name);
+        $('#friendModal').modal(focus);
+
+
+      });
+
+    });
+
+
   });
 
 
-});
-
- 
 </script>

@@ -21,12 +21,18 @@ connection.connect(function (err) {
 
 module.exports = function (app) {
   app.get("/api/friends", function (req, res) {
-    connection.query("SELECT * FROM profiles", function (data) {
-      res.json(data);
+    connection.query("SELECT * FROM friends", function (err, data) {
+      console.log(data);
+      var newData = JSON.stringify(data);
+      newData = JSON.parse(newData);
+      console.log(newData);
+      res.json(newData);
+
     });
   });
 
   app.post("/api/friends", function (req, res) {
+    console.log(req.body);
     var survey = req.body.survey;
 
     connection.query("insert into friends (name, picture, q1, q2, q3, q4, q5) values(?,?,?,?,?,?,?)",
